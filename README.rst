@@ -1,7 +1,10 @@
 Maskouk-pysqlite مكتبة مسكوك
 ============================
 
-Arabic collocations library and data for Python +SQLite API 
+Arabic collocations library and data for Python +SQLite API |maskouk
+logo|
+
+|downloads| |downloads2|
 
 Developpers: Taha Zerrouki: http://tahadz.com taha dot zerrouki at gmail
 dot com
@@ -18,21 +21,22 @@ dot com
 | License | `GPL <https://github.com/linuxscout/maskouk-pysqlite/master/LICE |
 |         | NSE>`__                                                          |
 +---------+------------------------------------------------------------------+
-| Tracker | `linuxscout/maskouk-pysqlite/Issues <https://github.com/linuxsco |
-|         | ut/maskouk-pysqlite/issues>`__                                   |
+| Tracker | `linuxscout/maskouk/Issues <https://github.com/linuxscout/maskou |
+|         | k-pysqlite/issues>`__                                            |
 +---------+------------------------------------------------------------------+
-| Website | http://maskouk-pysqlite.sourceforge.net                          |
+| Website | `http://maskouk.sourceforge.net <http://maskouk-pysqlite.sourcef |
+|         | orge.net>`__                                                     |
 +---------+------------------------------------------------------------------+
 | Source  | `Github <http://github.com/linuxscout/maskouk-pysqlite>`__       |
 +---------+------------------------------------------------------------------+
-| Downloa | `sourceforge <http://maskouk-pysqlite.sourceforge.net>`__        |
+| Downloa | `sourceforge <http://maskouk.sourceforge.net>`__                 |
 | d       |                                                                  |
 +---------+------------------------------------------------------------------+
 | Feedbac | `Comments <https://github.com/linuxscout/maskouk-pysqlite/>`__   |
 | ks      |                                                                  |
 +---------+------------------------------------------------------------------+
 | Account | [@Twitter](https://twitter.com/linuxscout)                       |
-| s       | [@Sourceforge](http://sourceforge.net/projectsmaskouk-pysqlite/) |
+| s       | [@Sourceforge](http://sourceforge.net/projects/maskouk/)         |
 +---------+------------------------------------------------------------------+
 
 Description
@@ -277,3 +281,9 @@ CSV Structure:
    4.  rule        : the extraction rule number
            : 
    -->
+
+.. |maskouk logo| image:: doc/maskouk_header.png
+.. |downloads| image:: https://img.shields.io/sourceforge/dt/maskouk.svg
+   :target: http://sourceforge.org/projects/maskouk
+.. |downloads2| image:: https://img.shields.io/sourceforge/dm/maskouk.svg
+   :target: http://sourceforge.org/projects/maskouk
