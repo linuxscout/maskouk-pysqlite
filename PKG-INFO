@@ -1,0 +1,11 @@
+Metadata-Version: 0.1
+Name:maskouk-pysqlite
+Version: 0.1
+Summary:  Maskouk: Arabic collocations library and data for Python +SQLite API
+Home-page: http://maskouk.sourceforge.net/
+Author: Taha Zerrouki
+Author-email: taha.zerrouki@gmail.com
+License: GPL
+Description: Maskouk is an Arabic collocations library and data for Python +SQLite API
+Platform: Os-independent
+

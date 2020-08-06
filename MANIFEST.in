@@ -1,0 +1,2 @@
+include maskouk/data/collocations.sqlite
+include maskouk/data/semantic.sqlite
