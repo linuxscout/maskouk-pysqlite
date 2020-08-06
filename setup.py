@@ -8,6 +8,7 @@ from io import open
 def readme():
     with open('README.rst', encoding="utf8") as f:
         return f.read()
+
 setup (name='maskouk_pysqlite', version='0.1',
       description='maskouk: Arabic Dictionary for Collocations - python + sqlite',
       long_description = readme(),      
