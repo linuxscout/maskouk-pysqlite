@@ -30,6 +30,16 @@ Maskouk is a database of arab ic collocations  extracted from Wikipedia.
 
 Arabic wikipedia data base 2011-Jun-21.
 
+###  مزايا:
+<div dir="rtl">
+
+-   التحقق أنّ كلمتين معا تشكلان متلازمة موجودة في القاموس
+-   استخلاص كل المتلازمات الموجودة في نص معين
+-   وسم المتلازمات في نص معين بعلامات بداية ونهاية المتلازمة
+-   البحث عن المتلازمات الطويلة مثل “بسم الله الرحمن الرحيم”، و”السلام عليكم ورحمة الله تعالى وبركاته”
+-   البحث عن الكلمات المرشحة لتكون متلازمات، يعني استخلاص متلازمات جديدة.
+
+</div>
 ### install
 ```shell
 pip install maskouk-pysqlite
@@ -172,25 +182,25 @@ output: 100
 ### Colocations database
 ```sql
 CREATE TABLE "collocations" (
-	"id" INTEGER PRIMARY KEY  NOT NULL , 
-	"vocalized" VARCHAR,
-	"unvocalized" VARCHAR,
-	"rule" VARCHAR, 
-	"category" VARCHAR, 
-	"note" VARCHAR,
-	"first" VARCHAR,
-	"second" VARCHAR
-	);
+    "id" INTEGER PRIMARY KEY  NOT NULL , 
+    "vocalized" VARCHAR,
+    "unvocalized" VARCHAR,
+    "rule" VARCHAR, 
+    "category" VARCHAR, 
+    "note" VARCHAR,
+    "first" VARCHAR,
+    "second" VARCHAR
+    );
 ```
 
 CSV Structure:
 
-1.   id 			: id unique in the database
-2.  vocalized 	: vocalized collocation
+1.   id             : id unique in the database
+2.  vocalized   : vocalized collocation
 3.  unvocalized : unvocalized collocation
-4.  rule 		: the extraction rule number
-5.  category 	: collocation category
-6.  note 		: 
+4.  rule        : the extraction rule number
+5.  category    : collocation category
+6.  note        : 
 7. first: first word
 8. second: second word
 
@@ -211,11 +221,11 @@ CREATE TABLE "derivations" (
 CSV Structure:
 
  * Derivattion
-1.   id 			: id unique in the database
-2.  verb	: vocalized collocation
+1.   id             : id unique in the database
+2.  verb    : vocalized collocation
 3.  transtive : if the verb is transitive
-4.  derived 		:  derived word from verb number
-5.  type 	: type 
+4.  derived         :  derived word from verb number
+5.  type    : type 
 
 * semantic relations
 
@@ -229,9 +239,9 @@ CREATE TABLE "relations" (
  
 CSV Structure:
 
-1.   id 			: id unique in the database
+1.   id             : id unique in the database
 2. first: first word
 3. second: second word
-4.  rule 		: the extraction rule number
-		: 
+4.  rule        : the extraction rule number
+        : 
 -->
