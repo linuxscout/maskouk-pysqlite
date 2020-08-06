@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding=utf-8 -*-
 from setuptools import setup
 
 # to install type:
@@ -7,15 +8,15 @@ from io import open
 def readme():
     with open('README.rst', encoding="utf8") as f:
         return f.read()
-setup (name='maskouk_pysqlite', version='0.3',
+setup (name='maskouk_pysqlite', version='0.1',
       description='maskouk: Arabic Dictionary for Collocations - python + sqlite',
       long_description = readme(),      
 
       author='Taha Zerrouki',
       author_email='taha.zerrouki@gmail.com',
-      url='http://maskouk-pysqlite.sourceforge.net/',
+      url='http://maskouk.sourceforge.net/',
       license='GPL',
-      Description="maskouk; Arabic Dictionary for Collocations - python + sqlite",
+      #~ description="maskouk; Arabic Dictionary for Collocations - python + sqlite",
       package_dir={'maskouk': 'maskouk'},
       packages=['maskouk'],
       install_requires=[ 'pyarabic>=0.6.2',

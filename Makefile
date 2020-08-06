@@ -28,6 +28,8 @@ wheel3:
 	sudo python3 setup.py bdist_wheel
 sdist:
 	sudo python3 setup.py sdist
+sdist2:
+	sudo python setup.py sdist
 upload:
 	echo "use twine upload dist/arramooz-pysqlite-0.1.tar.gz"
 

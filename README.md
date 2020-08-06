@@ -17,12 +17,12 @@ Features |   value
 Authors  | [Authors.md](https://github.com/linuxscout/maskouk-pysqlite/master/AUTHORS.md)
 Release  | 0.1
 License  |[GPL](https://github.com/linuxscout/maskouk-pysqlite/master/LICENSE)
-Tracker  |[linuxscout/maskouk-pysqlite/Issues](https://github.com/linuxscout/maskouk-pysqlite/issues)
-Website  |[http://maskouk-pysqlite.sourceforge.net](http://maskouk-pysqlite.sourceforge.net)
+Tracker  |[linuxscout/maskouk/Issues](https://github.com/linuxscout/maskouk-pysqlite/issues)
+Website  |[http://maskouk.sourceforge.net](http://maskouk-pysqlite.sourceforge.net)
 Source  |[Github](http://github.com/linuxscout/maskouk-pysqlite)
-Download  |[sourceforge](http://maskouk-pysqlite.sourceforge.net)
+Download  |[sourceforge](http://maskouk.sourceforge.net)
 Feedbacks  |[Comments](https://github.com/linuxscout/maskouk-pysqlite/)
-Accounts  |[@Twitter](https://twitter.com/linuxscout)  [@Sourceforge](http://sourceforge.net/projectsmaskouk-pysqlite/)
+Accounts  |[@Twitter](https://twitter.com/linuxscout)  [@Sourceforge](http://sourceforge.net/projects/maskouk/)
 
 ## Description
 
