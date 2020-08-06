@@ -169,16 +169,18 @@ output: 100
 
 
 ## Data Structure:
-
+### Colocations database
 ```sql
-CREATE TABLE collocations (
-  id int(11) NOT NULL UNIQUE,
-  vocalized varchar(30) DEFAULT NULL,
-  unvocalized varchar(30) DEFAULT NULL,
-  rule varchar(30) DEFAULT NULL,
-  category varchar(30) NOT NULL,
-  note text
-);
+CREATE TABLE "collocations" (
+	"id" INTEGER PRIMARY KEY  NOT NULL , 
+	"vocalized" VARCHAR,
+	"unvocalized" VARCHAR,
+	"rule" VARCHAR, 
+	"category" VARCHAR, 
+	"note" VARCHAR,
+	"first" VARCHAR,
+	"second" VARCHAR
+	);
 ```
 
 CSV Structure:
@@ -189,3 +191,47 @@ CSV Structure:
 4.  rule 		: the extraction rule number
 5.  category 	: collocation category
 6.  note 		: 
+7. first: first word
+8. second: second word
+
+<!--
+### Semantic database
+```sql
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE "derivations" (
+    "id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE ,
+    "verb" varchar NOT NULL ,
+    "transitive" BOOL NOT NULL  DEFAULT 1,
+    "derived" VARCHAR NOT NULL ,
+    "type" VARCHAR NOT NULL 
+ );
+
+```
+
+CSV Structure:
+
+ * Derivattion
+1.   id 			: id unique in the database
+2.  verb	: vocalized collocation
+3.  transtive : if the verb is transitive
+4.  derived 		:  derived word from verb number
+5.  type 	: type 
+
+* semantic relations
+
+CREATE TABLE "relations" (
+    "id" INTEGER PRIMARY KEY  NOT NULL ,
+    "first" VARCHAR NOT NULL  DEFAULT ('') ,
+    "second" VARCHAR NOT NULL  DEFAULT ('') ,
+    "rule" VARCHAR NOT NULL  DEFAULT (0) 
+ );
+ 
+ 
+CSV Structure:
+
+1.   id 			: id unique in the database
+2. first: first word
+3. second: second word
+4.  rule 		: the extraction rule number
+		: 
+-->

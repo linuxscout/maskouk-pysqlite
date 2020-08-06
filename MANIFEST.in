@@ -1,2 +1,5 @@
 include maskouk/data/collocations.sqlite
-include maskouk/data/semantic.sqlite
+include data-source/collocations.csv
+include collocations-schema.sql
+include collocations.sql
+
