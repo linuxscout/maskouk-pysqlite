@@ -8,7 +8,7 @@ Arabic collocations library and data for Python +SQLite API
 [![downloads]( https://img.shields.io/sourceforge/dm/maskouk.svg)](http://sourceforge.org/projects/maskouk)
 
 
-  Developpers:  Taha Zerrouki: http://tahadz.com
+  Developer:  Taha Zerrouki: http://tahadz.com
     taha dot zerrouki at gmail dot com
 
   
@@ -40,10 +40,12 @@ Arabic wikipedia data base 2011-Jun-21.
 -   البحث عن الكلمات المرشحة لتكون متلازمات، يعني استخلاص متلازمات جديدة.
 
 </div>
-### install
+
+### Install
 ```shell
 pip install maskouk-pysqlite
 ```
+
 ### Usage
 
 #### import
